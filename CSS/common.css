@@ -1036,95 +1036,90 @@ position: absolute;
 }
 
 .form-coment-textarea:focus {
-			outline: none;
-			border: 1px solid var(--accent-color);
-		}
+		outline: none;
+		border: 1px solid var(--accent-color);
+}
 	
 .form-coment-textarea::placeholder {
-			font-size: 12px;
-			line-height: 14px;
-			letter-spacing: 0.01em;
-			color: rgba(117, 117, 117, 0.5);
-		}
+		font-size: 12px;
+		line-height: 14px;
+		letter-spacing: 0.01em;
+		color: rgba(117, 117, 117, 0.5);
+}
 	
 .check {
-			margin-bottom: 20px;
-			display: inline-flex;
-			justify-content: center;
-			align-items: center;
-		}
+		margin-bottom: 20px;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+	}
 	
 .form-check-label {
-			display: inline-flex;
-			justify-content: center;
-			align-items: center;
-			font-size: 14px;
-			font-weight: 400;
-			line-height: 24px;
-			text-align: center;
-			color: var(--title-text-color);
-	
-		}
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		text-align: center;
+		color: var(--title-text-color);
+	}
 	
 .form-check-input {
-			position: absolute;
-			width: 1px;
-			height: 1px;
-			margin: -1px;
-			border: 0;
-			padding: 0;
-			clip: rect(0 0 0 0);
-			overflow: hidden;
-		}
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		border: 0;
+		padding: 0;
+		clip: rect(0 0 0 0);
+		overflow: hidden;
+}
 	
 		.checkbox-svg {
-			display: inline-block;
-			margin-right: 7px;
-			height: 15px;
-			width: 16px;
-			border-radius: 4px;
-			border: 2px solid var(--title-text-color);
-			transition: var(--animation);
-	
-		}
+		display: inline-block;
+		margin-right: 7px;
+		height: 15px;
+		width: 16px;
+		border-radius: 4px;
+		border: 2px solid var(--title-text-color);
+		transition: var(--animation);
+}
 	
 .form-check-input:checked ~ .checkbox-svg {
 		background-color: var(--accent-color);
 		border-color: var(--accent-color);
-		background-image: url('../IMG/icon\check.svg');
+background-image: url('../IMG/icon\ check.svg');
 		background-size: contain;
 		background-origin: border-box;
-	
-	
+
 }
 	
 	
 		.check-link {
-			display: inline-flex;
-			color: hsla(207, 90%, 54%, 1);
-	
-		}
+		display: inline-flex;
+		color: hsla(207, 90%, 54%, 1);
+	}
 	
 		.form-submit {
-			height: 50px;
-			width: 200px;
-			border-radius: 4px;
-			border: 1px solid transparent;
-			background-color: rgba(33, 150, 243, 1);
-			box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-				0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-				0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-			cursor: pointer;
-			transition: var(--animation);
+		height: 50px;
+		width: 200px;
+		border-radius: 4px;
+		border: 1px solid transparent;
+		background-color: rgba(33, 150, 243, 1);
+		box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+			0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+			0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+	cursor: pointer;
+	transition: var(--animation);
 	
 	
-			font-size: 16px;
-			font-weight: 700;
-			line-height: 1.18;
-			letter-spacing: 0.06em;
-			text-align: center;
-			color: rgba(255, 255, 255, 1);
-	
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 1.18;
+		letter-spacing: 0.06em;
+		text-align: center;
+		color: rgba(255, 255, 255, 1);
 		}
 
 
